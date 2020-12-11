@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 150vh;
+    background-image: url("https://nextbigthing.ag/static/9871603ba12f541164852ce38d1814c7/2f1b1/3c944f9c-d74d-4c73-9010-6aea43fa47f6_Cover.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main > div {
+    width: calc(100% / 12);
+    height: 100%;
+    overflow: hidden;
+}
+
+main > div > span {
+    width: 100%;
+    height: 100%;
+    background-color: #292325;
+    display: block;
+}
+
+main > h1 {
+    color: white;
+    position: fixed;
+    transition: .1s;
+    z-index: 5;
+    top: 20%;
+    left: 20%;
+    font-size: 6vw;
+}
+
+main > h3 {
+    color: white;
+    position: absolute;
+    transition: .2s;
+    z-index: 5;
+    bottom: 20%;
+    right: 10%;
+    font-size: 3vw;
+    opacity: 0;
+}
+
+.content {
+    width: 100%;
+    padding: 60px;
+}
+
+.content > h1 {
+    font-size: 8vw;
+    text-align: center;
+}
